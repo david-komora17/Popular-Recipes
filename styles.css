@@ -1,0 +1,74 @@
+main {
+    box-sizing: border-box;
+}
+
+body {
+     background-image: url(pickering.jpg);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     margin: 2px;
+}
+
+input[type=text] {
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    padding: 2px;
+    background-color: aliceblue;
+}
+
+header{
+    background-color: rgb(20, 19, 19);
+    text-align: center;
+    padding: 25px;
+}
+
+aside {
+   
+    color: rgb(178, 68, 68);
+    width: 30%;
+    padding: 5px;
+    float: left;
+   
+}
+section {
+    
+    color: rgb(178, 68, 68);
+    width: 30%;
+    padding: 5px;
+    float: left;
+   
+}
+article {
+   
+    color: rgb(178, 68, 68);
+    width: 30%;
+    padding: 5px;
+    float: left;
+}
+
+button {
+    border: 1px solid;
+    background-color: blanchedalmond;
+    padding: 5px;
+    margin: 10px;
+}
+
+footer {
+    clear: both;
+    background-color: rgb(25, 24, 24);
+    text-align: center;
+    padding: 50px;
+    color: wheat;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    aside, section, article
+    {width: 100%;}
+}
+
+
+
+ 
