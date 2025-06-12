@@ -29,7 +29,7 @@ body {
     position: absolute;
     left: 0;
     top: 0;
-    width: 250px;
+    width: 249px;
     padding-top: 60px;
     margin-bottom: 10px;
     background-color: rgba(255, 255, 255, 0.823);
@@ -42,6 +42,9 @@ body {
     margin-top: 139px;
     transform: translateX(-250px);
     transition: transform 1.5s ease-in-out;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(250, 128, 114, 0.69);
 } 
 
 .sidebaricon {
@@ -164,8 +167,13 @@ button {
 footer {
     background-color: rgb(25, 24, 24);
     text-align: center;
+    margin-bottom: 2px;
     padding: 50px;
     color: wheat;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgb(92, 105, 118);
+    
 }
 
 @media screen and (min-width: 600px) {
