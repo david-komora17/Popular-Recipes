@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header class="color-red mt-4 p-1">
         <h1 class="text-red-400 flex items-center flex items-center space-x-1 rtl:space-x-reverse flex-wrap text-3xl">
@@ -15,118 +17,146 @@
         </h1><br>
         <input type="text" placeholder="searchbar">
         <i class="fa-solid fa-magnifying-glass-location"></i>
-        </input>
     </header>
-    <nav class="navbar">
-        <ul>
-            <li><a href="about.html"></a></li>
-            <li><a href="contacts.html"></a></li>
-            <li><a href="gallery.html"></a></li>
-            <li><a href=""></a></li>
-        </ul>
-
-    </nav>
-    <main>
-    <aside>
-        <h2><u>Delicious noodles</u></h2>
-            <div class="noodles">
-                <img src="/assets/noodles-8021415_1280.png" alt="">
-                <p>
-                    <div class="noodles">
-                        Ingredients in Chili Crisp Noodles
-                        Other than chilli crisp, the ingredients
-                        in these noodles are flexible because the
-                        chili crisp does so much of the heavy lifting 
-                        here. So there’s no need to dash out to the 
-                        store if you don’t have exactly everything 
-                        listed, I’ve added substitution notes. The 
-                        ingredients are as follows:
-                    
-                </p>
-            </div>
-        <br>
-            <div class="ingredients">
-                   
-                <ul>
-                    <li>1.Chinese sesame paste</li>
-                    <li>2.light soy</li>
-                    <li>3.chili crisp</li>
-                    <li>4.rice vinegar</li>
-                    <li>5.sesame oil</li>
-                    <li>6.sugar</li>
-                </ul>
-            </div>
-            <button>
+  
+      <input type="checkbox" id="openmenu">
+        <label for="openmenu" class="sidebaricon">
+            <div class="spinner top"></div>
+            <div class="spinner middle"></div>
+            <div class="spinner bottom"></div>
+        </label>
+        <div id="sidebarmenu">
+            <ul>
                 
-                <a href="https://www.recipetineats.com/chilli-crisp-noodles/">learn more &rarr;</a>
-            </button>
+                <li>
+                    <a href="#">
+                        <img src="/assets/chunks-594496_1280.jpg" alt="" class="sidebarimage">
+                    </a>
+                </li>
+                <li>
+                    <a href="about.html">
+                        about us
+                    </a>
+                </li>
+                <li>
+                    <a href="contacts.html">
+                        contacts
+                    </a>
+                </li>
+                <li>
+                    <a href="gallery.html">
+                        gallery
+                    </a>
+                </li>
+            </ul>
+        </div>
+    <main class="grid1">
+        <div class="noodles">
+            <h2><u>Delicious noodles</u></h2>
+                <img src="/assets/noodles-8021415_1280.png" alt="">
+                    <p>
+                    Ingredients in Chili Crisp Noodles
+                    Other than chilli crisp, the ingredients
+                    in these noodles are flexible because the
+                    chili crisp does so much of the heavy lifting
+                    here. So there’s no need to dash out to the
+                    store if you don’t have exactly everything
+                    listed, I’ve added substitution notes. The
+                    ingredients are as follows:
 
-    </aside> 
-    <section>
-            <h2><u>ceviche recipe</u></h2>
-                    <div class="ceviche">
-                          <img src="/assets/ceviche-6472044_1280.jpg" alt="">
-                        <p>
-                            <div class="noodles">
-                                At its core, Ceviche is as simple as tossing raw
-                                fish with lime juice, then leaving it for 5 minutes
-                                to let the acid “cook” the fish, making it turn white
-                                on the surface, but still raw inside.Here’s a comparison
-                                of the fish immediately after tossing with lime (fish is
-                                still translucent), then 5 minutes later, it’s turned white
-                                because it’s cooked!
-                            
-                        </p>
-                    </div>
+                    </p>
                 <br>
+                <div class="ingredients">
+
+                    <ul>
+                        <li>1.Chinese sesame paste</li>
+                        <li>2.light soy</li>
+                        <li>3.chili crisp</li>
+                        <li>4.rice vinegar</li>
+                        <li>5.sesame oil</li>
+                        <li>6.sugar</li>
+                    </ul>
+                </div>
+      
+                <button>
+                    <a href="https://www.recipetineats.com/chilli-crisp-noodles/">learn more &rarr;</a>
+                </button>
+        </div>
+        
+        <div class="ceviche">
+                    <h2><u>ceviche recipe</u></h2>
+                        <img src="/assets/ceviche-6472044_1280.jpg" alt="">
+                            <p>
+                            At its core, Ceviche is as simple as tossing raw
+                            fish with lime juice, then leaving it for 5 minutes
+                            to let the acid “cook” the fish, making it turn white
+                            on the surface, but still raw inside.Here’s a comparison
+                            of the fish immediately after tossing with lime (fish is
+                            still translucent), then 5 minutes later, it’s turned white
+                            because it’s cooked!
+
+                            </p>
+                        
+                        <br>
+                        <div class="ingredients">
+                            <ul>
+                                <li>lime</li>
+                                <li>extra virgin olive oil</li>
+                                <li>garlic</li>
+                                <li>onion</li>
+                                <li>tomato</li>
+                                <li>jalapeno</li>
+                                <li>avocado</li>
+                                <li>coriander</li>
+                                <li>salt & pepper</li>
+                                <li>tuna</li>
+                            </ul>
+                        </div>
+                        <button>
+                            <a href="https://www.recipetineats.com/ceviche/"> learn more &rarr;</a>
+                        </button>
+        </div>
+
+        <div class="pie">
+                    <h2><u>chicken pie</u></h2>
+                    <img src="/assets/chicken-pie-8152202_1280.jpg" alt="">
+                    <p>
+                        This is a pretty straight forward recipe, especially when made you
+                        make individual Chicken Pot Pies like I’ve done. I only have 2 tips
+                        to ensure you nail The Pot every single time:Thicken filling to desired
+                        consistency before putting it in the pots. The sauce won’t thicken at
+                        all once the lid is on. So keep cooking until the sauce is a nice creamy
+                        consistency and not watery. Nobody likes a watery pie filling!Cool filling
+                        before topping with puff pastry. Hot filling = melts butter in pastry that
+                        creates layers = less puff.
+                    </p>
+                    <br>
                     <div class="ingredients">
-                        <ul>
-                            <li>lime</li>
-                            <li>extra virgin olive oil</li>
-                            <li>garlic</li>
-                            <li>onion</li>
-                            <li>tomato</li>
-                            <li>jalapeno</li>
-                            <li>avocado</li>
-                            <li>coriander</li>
-                            <li>salt & pepper</li>
-                            <li>tuna</li>
-                        </ul>
+                            <ul>
+                                <li>chicken</li>
+                                <li>extra virgin olive oil</li>
+                                <li>garlic</li>
+                                <li>onion</li>
+                                <li>tomato</li>
+                                <li>coriander</li>
+                                <li>salt & pepper</li>
+                             
+                            </ul>
                     </div>
                     <button>
-                         learn more &rarr;
-                         <a href="https://www.recipetineats.com/ceviche/"></a>
+                        <a href="">learn more &rarr;</a>
                     </button>
-    </section>
-    
-    <article>
-        <h2><u>chicken pie</u></h2>
-        <img src="/assets/chicken-pie-8152202_1280.jpg" alt="">
-        <p>
-            This is a pretty straight forward recipe, especially when made you
-            make individual Chicken Pot Pies like I’ve done. I only have 2 tips 
-            to ensure you nail The Pot every single time:Thicken filling to desired
-            consistency before putting it in the pots. The sauce won’t thicken at 
-            all once the lid is on. So keep cooking until the sauce is a nice creamy
-            consistency and not watery. Nobody likes a watery pie filling!Cool filling
-            before topping with puff pastry. Hot filling = melts butter in pastry that
-            creates layers = less puff.
-        </p>
-            <button>
-                learn more &rarr;
-                <a href=""></a>
-            </button>
-    </article>
-    </main><br>
+        </div>
+    </main>
+    <br>
     <footer>
         <p>
-        address: 31052Fake st
+            address: 31052Fake st
         </p>
         <p>
-        contact us:<a href="mailto:komoradavid473@gmail.com">komoradavid473@gmail.com</a>
+            contact us:<a href="mailto:komoradavid473@gmail.com">komoradavid473@gmail.com</a>
         </p>
     </footer>
 </body>
+
 </html>
-
-
