@@ -14,6 +14,14 @@ body {
 
 }  
 
+i {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 3px;
+    color: antiquewhite;
+}
+
 .spinner {
     height: 3px;
     background-color: white;
@@ -33,23 +41,26 @@ body {
     padding-top: 60px;
     margin-bottom: 10px;
     background-color: rgba(255, 255, 255, 0.823);
-    color: #120f0ff3;
+    color: white;
     text-align: center;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: capitalize;
     text-decoration: none;
-    margin-top: 139px;
+    margin-top: 162px;
     transform: translateX(-250px);
     transition: transform 1.5s ease-in-out;
     border: none;
     border-radius: 10px;
     box-shadow: 1px 1px 5px rgba(250, 128, 114, 0.69);
+    background-image: url(/assets/mosaic-2621142_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 } 
 
 .sidebaricon {
     padding: 8px;
-    margin-top: 60px;
+    margin-top: 80px;
     margin-left: 50px;
     background-color: black;
     height: 30px;
@@ -104,6 +115,42 @@ ul li {
     margin: 25px;
 }
 
+.deliveries {
+    display: grid;
+    width: 700px;
+    border: 1px solid salmon;
+    border-radius: 15px;
+    background-color: azure;
+}
+
+.deliveries h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: rgba(255, 0, 0, 0.583);
+}
+
+.deliveries iframe {
+    border: none;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+
+.deliveries button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    border: none;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+
+.grid1 h1 {
+    text-transform: uppercase;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
 .grid1 img {  
     width: 90%;
     height: auto;
@@ -142,6 +189,12 @@ header{
        
 }
 
+.noodles img {
+    border: none;
+    border-radius: 8px;
+
+}
+
 .ceviche, .ingredients {
     
     color: white;
@@ -178,7 +231,7 @@ footer {
 
 @media screen and (min-width: 600px) {
     .grid1 {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }  
 

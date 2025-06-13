@@ -1,11 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
+   <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>about - </title>
+    <title>Popular recipes</title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/c90aec231d.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
+
 <body>
-    
+   <header class="color-red mt-4 p-1">
+        <h1 class="text-red-400 flex items-center flex items-center space-x-1 rtl:space-x-reverse flex-wrap text-3xl">
+            <i class="fa-solid fa-utensils"></i>
+            <u>Sugar, spice and sauce recipes!</u>
+        </h1><br>
+        <input type="text" placeholder="searchbar">
+        <i class="fa-solid fa-magnifying-glass-location"></i>
+    </header>
+  
+  
+      <input type="checkbox" id="openmenu">
+        <label for="openmenu" class="sidebaricon">
+            <div class="spinner top"></div>
+            <div class="spinner middle"></div>
+            <div class="spinner bottom"></div>
+        </label>
+        <div id="sidebarmenu">
+            
+            <a href="/index.html">
+                <img src="/assets/chunks-594496_1280.jpg" alt="" class="sidebarimage">
+            </a>
+            
+            <ul>
+                <li>
+                    <a href="about.html">
+                        about us
+                    </a>
+                </li>
+                <li>
+                    <a href="contacts.html">
+                        contacts
+                    </a>
+                </li>
+                <li>
+                    <a href="gallery.html">
+                        gallery
+                    </a>
+                </li>
+            </ul>
+        </div>
+    <main class="grid1">
+        <div class="noodles">
+            <p>
+                Nairobi office
+                PricewaterhouseCoopers Limited
+                PwC Tower, Waiyaki Way/Chiromo Road, Westlands
+                Nairobi, Kenya
+
+                Tel: +254 (20) 285 5000
+                Fax: +254 (20) 285 5001
+
+                For information please get in touch with us by clicking here
+            </p>
+      
+            <button>
+                <a href="https://www.recipetineats.com/chilli-crisp-noodles/">learn more &rarr;</a>
+            </button>
+        </div>
+
+    </main>
+    <br>
+    <footer>
+        <p>
+            address: 31052Fake st
+        </p>
+        <p>
+            contact us:<a href="mailto:komoradavid473@gmail.com">komoradavid473@gmail.com</a>
+        </p>
+    </footer>
 </body>
+
 </html>
