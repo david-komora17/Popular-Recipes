@@ -97,11 +97,13 @@ input#openmenu {
 
 ul li :hover {
     cursor: pointer;
-    background-color: rgba(109, 71, 15, 0.282);
+    background-color: rgb(91, 76, 76);
+    
 }
  
 ul li:nth-child(1) {
     text-align: center;
+
 }  
 
 ul li {
@@ -120,14 +122,21 @@ ul li {
     width: 700px;
     border: 1px solid salmon;
     border-radius: 15px;
-    background-color: azure;
+    background-color: rgba(0, 0, 0, 0.472);
 }
 
 .deliveries h2 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
-    color: rgba(255, 0, 0, 0.583);
+    color: pink;
+}
+
+.deliveries p {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
 }
 
 .deliveries iframe {
