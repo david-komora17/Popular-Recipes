@@ -168,6 +168,27 @@ ul li {
     
 }
 
+.about {
+   border: 1px solid salmon;
+   border-radius: 15px;
+   margin: 10px;
+}
+
+.about p {
+    color: white;
+    padding: 10px;
+
+}
+
+.about video {
+    border: none;
+    border-radius: 8px;
+}
+
+.about button {
+    
+}
+
  input[type=text] {
     border: none;
     border-radius: 5px;
