@@ -171,7 +171,7 @@ ul li {
 .about {
    border: 1px solid salmon;
    border-radius: 15px;
-   margin: 10px;
+   margin: 70px;
 }
 
 .about p {
@@ -186,7 +186,7 @@ ul li {
 }
 
 .about button {
-    
+
 }
 
  input[type=text] {
